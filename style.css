@@ -1,0 +1,97 @@
+/* Write some CSS below */
+body{
+	margin: 0px;
+	font-family: 'Overpass', sans-serif;
+}
+
+.banner{
+	background-image:url(images/positano.jpg);
+	padding: 90px;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.banner h1{
+	color : white;
+	font-family: 'Chivo', sans-serif;
+	font-size: 60px;
+}
+.banner p{
+	font-size: 40px;
+	color: white;
+	opacity: 0.9;
+	font-family: 'Overpass', sans-serif;
+}
+.btn-blue{
+	background-color: #0077b6;
+	color: white;
+	font-family: 'Overpass', sans-serif;
+	font-size: 25px;
+	padding: 16px 48px;
+	border-radius: 7px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	opacity: 0.8;
+}
+
+.btn-blue:hover {
+	background-color: #0077b6;
+  	color: white;
+  	opacity: 0.7;
+}	
+
+.subtitle h2{
+	color: #404042;
+	font-family: 'Overpass', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.container {
+	width: 800px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.card-white{
+	width: 200px;
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.1);
+	text-align: center;
+	border-radius: 4px;
+	padding: 18px;
+	background:  white;
+	margin: 4px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card-white h3{
+	color: #404042;
+	font-family: 'Overpass', sans-serif;
+	font-size: 25px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.video{
+    text-align: center;
+}
+
+.footer{
+	text-align: center;
+	background: #404042;
+	padding: 18px 0;
+}
+
+.footer p{
+	color : white
+}
